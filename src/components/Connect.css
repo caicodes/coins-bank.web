@@ -1,0 +1,30 @@
+.connect .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 1rem;
+}
+
+.connect .left {
+    padding-top: 4rem;
+}
+
+.connect img {
+    width: 300px;
+}
+
+.connect img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.connect .right p {
+    margin: 2rem 0;
+}
+
+@media screen and (max-width:940px) {
+    .connect .container {
+        grid-template-columns: 1fr;
+    }
+}
