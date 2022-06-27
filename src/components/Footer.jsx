@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer'>
             <div className='container'>
                 <div className='col col-1'>
-                    <h1>De<span className='primary'>Fi</span></h1>
+                    <h1>Coins<span className='primary'>Bank</span></h1>
                 </div>
                 <div className='col'>
                     <h5>Support</h5>

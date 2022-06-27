@@ -21,7 +21,7 @@ const Navbar = () => {
           onClick={closeMenu}
         >
           <h1>
-            coin<span className="primary">wire</span>
+            Coins<span className="primary">Bank</span>
           </h1>
         </Link>
 
